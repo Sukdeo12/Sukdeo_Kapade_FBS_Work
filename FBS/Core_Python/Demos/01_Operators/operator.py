@@ -1,4 +1,4 @@
-#1 + Arithmatic operators
+# 1 + Arithmatic operators
 x = 10
 y = 25
 s1 = 'a'
@@ -12,6 +12,8 @@ print(res)
  
 res = y*x   #multiplication
 print(res)
+print('ab'*3)  #String * Number => multiples time out of  strings
+
  
 res = y/x   #division
 print( " ",res)
@@ -22,8 +24,9 @@ print( " ",res)    #ans always in integer
 res = 35//20    
 print( " ",res)
  
-res = 35%20 #modulus
+res = 35%20 #modulus  => Reminder return 
 print( " ",res)
  
-res = 8**4 #exponential
+res = 8**4 #exponential  => power if 8^4 => 8*8*8*8
 print(res)
+

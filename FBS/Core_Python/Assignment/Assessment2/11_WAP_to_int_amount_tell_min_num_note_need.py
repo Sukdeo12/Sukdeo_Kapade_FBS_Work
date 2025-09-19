@@ -9,6 +9,7 @@ TwoH_Note = 0
 OneH_Note = 0
 Fifty_Note = 0
 Ten_Note = 0
+remaining = 0
 
 if Note >= 500:
     FH_Note = Note//500
@@ -47,5 +48,9 @@ if flag:
         print(" and 10 Notes : " + str(Ten_Note))
     if remaining:
         print("less than 10 rs Note : ", Note)     
+        
+    Min_Notes = FH_Note + TwoH_Note + OneH_Note + Fifty_Note + Ten_Note
+    print(f'Min Number of notes are : {Min_Notes}')
+    
 else:
     print("Note value Not Valied", Note)  
