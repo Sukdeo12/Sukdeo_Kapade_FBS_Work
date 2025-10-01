@@ -1,5 +1,5 @@
 #Relation oprators
-#1 equal to ==
+#1 exact equal to ==
 
 print(10 > 5)
 print(10 >= 10)
