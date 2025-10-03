@@ -6,7 +6,7 @@ user = input("Enter the user uid : ")
 pswd = input("Enter the password : ")
 
 if ((uid == user) and (pswd == password)):
-    print("uid and password is correct")
+    print("uid or password is correct")
     
     #Crete captcha
     
