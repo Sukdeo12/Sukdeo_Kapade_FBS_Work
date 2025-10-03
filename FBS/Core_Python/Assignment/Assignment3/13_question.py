@@ -14,6 +14,7 @@ l2_bill=0
 l1_bill=0
 l0_bill = 0
 
+#First way - 1
 if unit > 250:
     l3 = unit - 250
     l3_bill = l3 * 1.50
@@ -35,6 +36,21 @@ if unit <= 50:
 
 bill = l3_bill + l2_bill + l1_bill + l0_bill
 
-print(f'actual unit is - {act_unit}, bill is {bill}.')
+bill = bill + (bill * 20/100)
 
+print(f'electricity bill of {act_unit} unit is - {bill}.')
+
+#
+# #2nd way
+# if unit > 250:
+#     bill = (unit-250)*1.5
+#     unit -= 250
+#     if ((unit <= 250) and (unit > 150)):
+#         bill = (unit-150)*1.2
+#         unit -= 150
+#     if ((unit <= 150) and (unit>50)):
+#         bill = (unit - 50)*0.75
+#         unit -= 100
+#     if unit< 50:
+#          bill = unit*0.5   
     
