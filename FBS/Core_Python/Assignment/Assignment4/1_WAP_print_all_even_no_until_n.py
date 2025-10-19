@@ -3,11 +3,17 @@
 
 
 num = int(input("Enter the number: "))
-temp = 0
-print('The even numbers are : ')
-while(temp <= num):
-    if temp % 2 == 0:
-        print(temp)    
-    # else:
-    #     print(f'number {temp}, is odd number')
-    temp += 1
+# temp = 0
+# print('The even numbers are : ')
+# while(temp <= num):
+#     if temp % 2 == 0:
+#         print(temp)    
+#     # else:
+#     #     print(f'number {temp}, is odd number')
+#     temp += 1
+
+#using for loop
+print("Even number is: ")
+for i in range(1, num+1):
+    if i%2 == 0:
+        print(i)
