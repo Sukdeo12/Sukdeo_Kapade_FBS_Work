@@ -1,0 +1,6 @@
+#i = 0
+for i in range(1,11):
+    j = i
+    print(i)
+    
+print(i,j)
