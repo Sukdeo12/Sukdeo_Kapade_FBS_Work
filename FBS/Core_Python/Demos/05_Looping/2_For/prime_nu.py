@@ -1,4 +1,4 @@
-#check prime number
+#check prime number #
 
 num = int(input("ENter the number : "))
 
