@@ -5,3 +5,5 @@ for i in range(cnt):
     li.append(el)
 
 print(li)
+li.pop()
+print(li)
