@@ -10,5 +10,5 @@
 #How to create user interation here so will use input()
 num1 = int(input('ENter the numbers 1 - '))
 num2 = int(input('ENter the numbers 2 - '))
-sum = num1 + num2
+sum = num1 // num2
 print(f'addition of {num1} and {num2} is {sum}')

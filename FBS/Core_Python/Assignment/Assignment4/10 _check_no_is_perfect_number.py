@@ -19,7 +19,7 @@ num = int(input('Enter the number to check if number perfect or not(e.g 28): '))
 #     print("Number is the NOT perfect number : ", num)
     
 # print('Complete')
-sum = 0
+
 for i in range(1, num+1):
     for j in range(1, num):
         if (i*j) == num:
